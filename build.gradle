@@ -99,7 +99,7 @@ dependencies {
     implementation forge.rei.forge
 
     // EMI
-    compileOnly("dev.emi:emi-forge:${fabric.versions.emi.get()}:api")
+    compileOnly("dev.emi:emi-forge:${forge.versions.emi.get()}:api")
     compileOnly forge.emi
 
     // TOP
